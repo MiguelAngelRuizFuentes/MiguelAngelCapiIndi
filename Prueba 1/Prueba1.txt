@@ -1,0 +1,33 @@
+Título: Error en la funcionalidad de inicio de sesión
+
+Descripción: Encontré un error en la funcionalidad de inicio de sesión de la aplicación web https://www.demoblaze.com/. Cuando intento iniciar sesión con credenciales válidas, el sistema muestra un mensaje de error y no me permite acceder a mi cuenta.
+
+Pasos para reproducir el error:
+
+Abre la aplicación web https://www.demoblaze.com/ en un navegador web.
+Haz clic en el enlace "Acceso" en la página principal.
+Ingresa las credenciales válidas (nombre de usuario: "usuario123", contraseña: "contraseña123").
+Presiona el botón de "Iniciar sesión".
+Resultado esperado: Después de ingresar las credenciales correctas y hacer clic en "Iniciar sesión", se espera que la aplicación me redirija a la página de inicio de mi cuenta.
+
+Resultado actual: En lugar de redirigir a la página de inicio de mi cuenta, la aplicación muestra el siguiente mensaje de error: "Error de inicio de sesión: Credenciales inválidas".
+
+Evidencias del fallo: Adjunto una captura de pantalla del mensaje de error que aparece en la pantalla.
+
+Prioridad: Alta
+
+La funcionalidad de inicio de sesión es crucial para la experiencia del usuario y el funcionamiento básico de la aplicación.
+El error impide que los usuarios accedan a sus cuentas, lo cual afecta negativamente la usabilidad y puede generar frustración.
+Impacto: Medio
+
+El error afecta a los usuarios que intentan iniciar sesión con credenciales válidas, lo que puede generar una mala experiencia de usuario y llevar a la pérdida de usuarios.
+El impacto se limita a la funcionalidad de inicio de sesión y no afecta otras áreas de la aplicación.
+Probabilidad de ocurrencia: Alta
+
+Dado que el error ocurre al intentar iniciar sesión con credenciales válidas, es probable que los usuarios encuentren este problema con cierta frecuencia.
+El error puede afectar a todos los usuarios que intenten iniciar sesión en la aplicación web.
+Pasos sugeridos para reproducir el error y posibles causas:
+
+Verificar la base de datos de usuarios y asegurarse de que las credenciales sean correctas.
+Revisar el proceso de validación de inicio de sesión para identificar posibles problemas con la verificación de las credenciales.
+Realice pruebas exhaustivas en diferentes navegadores y dispositivos para asegurarse de que el problema no sea específico de una configuración particular.
